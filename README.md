@@ -1,10 +1,14 @@
-# GraphServer
+# GraphQL REST Server
 
-![GraphServer Logo](https://via.placeholder.com/150)
-![API Types](https://img.shields.io/badge/APIs-GraphQL%20%2B%20REST-success)
-![License](https://img.shields.io/badge/license-ISC-blue)
-![Node.js](https://img.shields.io/badge/Node.js-v14%2B-green)
-![npm](https://img.shields.io/badge/npm-v6%2B-red)
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/220px-GraphQL_Logo.svg.png" alt="GraphServer Logo">
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/APIs-GraphQL%20%2B%20REST-success" alt="API Types">
+  <img src="https://img.shields.io/badge/license-ISC-blue" alt="License">
+  <img src="https://img.shields.io/badge/Node.js-v14%2B-green" alt="Node.js">
+  <img src="https://img.shields.io/badge/npm-v6%2B-red" alt="npm">
+</p>
 
 GraphServer is a powerful and flexible server that supports both GraphQL and REST APIs. It is built using Node.js, Express, and Apollo Server, providing a robust solution for handling real-time data with subscriptions.
 
@@ -37,8 +41,8 @@ GraphServer is a powerful and flexible server that supports both GraphQL and RES
 1. Clone the repository:
 
 ```sh
-git clone https://github.com/yourusername/graphserver.git
-cd graphserver
+git clone https://github.com/Kesarwani17/graphql-rest-server.git
+cd graphql-rest-server
 ```
 
 2. Install dependencies:

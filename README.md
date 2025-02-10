@@ -145,4 +145,6 @@ This project is licensed under the MIT License.
 
 For any inquiries, please contact [gauravkesarwani94@gmail.com](mailto:gauravkesarwani94@gmail.com).
 
-![GraphServer Screenshot](https://via.placeholder.com/800x400)
+<p align="center">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTObdyqwfaKeYwOWJTDlEEuFps-FoF-Hbxd4A&s" alt="GraphServer Screensho">
+</p>

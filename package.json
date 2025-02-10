@@ -1,0 +1,23 @@
+{
+  "name": "graphql_rest_server",
+  "version": "1.0.0",
+  "main": "graphql-rest-server.js",
+  "scripts": {
+    "start": "node graphql-rest-server.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@apollo/server": "^4.9.5",
+    "express": "^4.18.2",
+    "graphql-ws": "^5.14.0",
+    "ws": "^8.16.0",
+    "graphql-subscriptions": "^2.0.0",
+    "@graphql-tools/schema": "^10.0.0",
+    "graphql-tag": "^2.12.0",
+    "graphql": "^16.10.0"
+  }
+}

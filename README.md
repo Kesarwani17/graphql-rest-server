@@ -1,6 +1,10 @@
 # GraphServer
 
 ![GraphServer Logo](https://via.placeholder.com/150)
+![API Types](https://img.shields.io/badge/APIs-GraphQL%20%2B%20REST-success)
+![License](https://img.shields.io/badge/license-ISC-blue)
+![Node.js](https://img.shields.io/badge/Node.js-v14%2B-green)
+![npm](https://img.shields.io/badge/npm-v6%2B-red)
 
 GraphServer is a powerful and flexible server that supports both GraphQL and REST APIs. It is built using Node.js, Express, and Apollo Server, providing a robust solution for handling real-time data with subscriptions.
 
@@ -12,6 +16,15 @@ GraphServer is a powerful and flexible server that supports both GraphQL and RES
 - **WebSocket Support**: Integrated WebSocket server for real-time communication.
 - **Modular Architecture**: Easily extendable and maintainable codebase.
 
+## Technologies Used
+
+| Technology    | Description                          | Logo                                                                      |
+| ------------- | ------------------------------------ | ------------------------------------------------------------------------- |
+| Node.js       | JavaScript runtime                   | ![Node.js](https://img.shields.io/badge/Node.js-v14%2B-green)             |
+| Express       | Web framework for Node.js            | ![Express](https://img.shields.io/badge/Express.js-4.x-lightgrey)         |
+| Apollo Server | GraphQL server implementation        | ![Apollo Server](https://img.shields.io/badge/Apollo%20Server-2.x-blue)   |
+| WebSocket     | Protocol for real-time communication | ![WebSocket](https://img.shields.io/badge/WebSocket-Protocol-brightgreen) |
+
 ## Getting Started
 
 ### Prerequisites
@@ -22,19 +35,22 @@ GraphServer is a powerful and flexible server that supports both GraphQL and RES
 ### Installation
 
 1. Clone the repository:
-    ```sh
-    git clone https://github.com/yourusername/graphserver.git
-    cd graphserver
-    ```
+
+```sh
+git clone https://github.com/yourusername/graphserver.git
+cd graphserver
+```
 
 2. Install dependencies:
-    ```sh
-    npm install
-    ```
+
+```sh
+npm install
+```
 
 ### Running the Server
 
 To start the server, run:
+
 ```sh
 npm run start
 ```
@@ -50,11 +66,13 @@ This will start both the GraphQL and REST servers.
 ### GraphQL API
 
 Access the GraphQL API at:
+
 ```
 http://localhost:4000/graphql
 ```
 
 #### Example Query
+
 ```graphql
 query {
   messages {
@@ -66,6 +84,7 @@ query {
 ```
 
 #### Example Mutation
+
 ```graphql
 mutation {
   addMessage(content: "Hello, World!", word: "greeting") {
@@ -79,16 +98,19 @@ mutation {
 ### REST API
 
 Access the REST API at:
+
 ```
 http://localhost:4000/messages
 ```
 
 #### Example POST Request
+
 ```sh
 curl -X POST http://localhost:4000/messages -H "Content-Type: application/json" -d '{"content": "Hello, World!", "word": "greeting"}'
 ```
 
 #### Example PUT Request
+
 ```sh
 curl -X PUT http://localhost:4000/messages/1 -H "Content-Type: application/json" -d '{"content": "Updated Content", "word": "updated"}'
 ```
@@ -96,7 +118,7 @@ curl -X PUT http://localhost:4000/messages/1 -H "Content-Type: application/json"
 ## Project Structure
 
 ```
-graphserver/
+graphql-rest-server/
 ├── .vscode/
 │   └── launch.json
 ├── node_modules/

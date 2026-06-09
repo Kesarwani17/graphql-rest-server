@@ -11,8 +11,8 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@apollo/server": "^5.5.1",
-    "express": "^4.22.1",
+    "@apollo/server": "^4.9.5",
+    "express": "^4.22.2",
     "graphql-ws": "^5.14.0",
     "ws": "^8.20.1",
     "graphql-subscriptions": "^2.0.0",

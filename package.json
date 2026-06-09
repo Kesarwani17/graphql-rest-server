@@ -12,7 +12,7 @@
   "description": "",
   "dependencies": {
     "@apollo/server": "^4.9.5",
-    "express": "^4.22.1",
+    "express": "^4.22.2",
     "graphql-ws": "^5.14.0",
     "ws": "^8.16.0",
     "graphql-subscriptions": "^2.0.0",
